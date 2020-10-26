@@ -2,6 +2,8 @@
 
 This uses the amazing Puck.js (v2) to control media playback and volume via BLE media control.
 
+It translates physical rotation of the Puck into a change in device volume.
+
 ## What this does:
 * Short press: play/pause
 * Long press: CW rotation --> increase volume, CCW rotation --> decrease volume
@@ -21,4 +23,4 @@ The magnetometer of the Puck.js is read out at a predefined interval, an "azimut
 The code might be a bit rough, but this was my first project with this device.
 
 ## How to use it:
-Just transfer the code via [Espruinos Web IDE](https://www.espruino.com/ide/) and web BLE in Chrome to your [Puck.js](https://www.espruino.com/Puck.js) and pair with a phone/computer.
+Just transfer the code in `code.js` via [Espruinos Web IDE](https://www.espruino.com/ide/) and web BLE in Chrome to your [Puck.js](https://www.espruino.com/Puck.js) and pair with a phone/computer.
