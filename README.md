@@ -6,6 +6,9 @@ This uses the amazing Puck.js (v2) to control media playback and volume via BLE 
 * Short press: play/pause
 * Long press: CW rotation --> increase volume, CCW rotation --> decrease volume
 
+## Demo
+[![demo](https://img.youtube.com/vi/3Md_5bTZ-r0/0.jpg)](https://www.youtube.com/watch?v=3Md_5bTZ-r0)
+
 ## Based on :
 Espruino YT channel - DIY Hands-free music control with Puck.js (https://www.youtube.com/watch?v=3iZ9j_ga6zs) This is how I initially found out about the Puck.js
 
